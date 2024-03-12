@@ -1,0 +1,54 @@
+{
+    "name": "mvsec",
+    "cuda": true,
+    "data_loader": {
+        "train": {
+            "args": {
+                "batch_size": 2,
+                "shuffle": false,
+                "sequence_length": 1,
+                "num_voxel_bins": 5,
+                "align_to": "depth",
+                "filter": {
+                    "indoor_flying": {
+                        "2": "range(160, 1580)",
+                        "3":"range(125,1815)"
+                    }
+                }
+            }
+        },
+
+        "test": {
+            "args": {
+                "batch_size": 1,
+                "shuffle": false,
+                "sequence_length": 1,
+                "num_voxel_bins": 5,
+                "align_to": "depth",
+                "filter": {
+                    "indoor_flying": {
+                        "1": "range(140, 1201)"
+                    }
+                }
+            }
+        },
+
+        "demo": {
+            "args": {
+                "batch_size": 1,
+                "shuffle": false,
+                "sequence_length": 1,
+                "num_voxel_bins": 5,
+                "align_to": "depth",
+                "filter": {
+                    "indoor_flying": {
+                        "1": "range(140, 1201)"
+                    }
+                }
+            }
+        }
+
+
+
+    }
+}
