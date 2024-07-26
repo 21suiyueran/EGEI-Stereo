@@ -1,7 +1,7 @@
 <!--
  * @Author: zhaofengan
  * @Date: 2024-03-03 21:53:03
- * @LastEditTime: 2024-07-26 23:05:06
+ * @LastEditTime: 2024-07-26 23:08:36
  * @FilePath: \EGEI-Stereo\README.md
  * @Description: 
  * 
@@ -96,4 +96,4 @@ If you find this code useful for your research, please consider citing our paper
 ```
 ## 💡 Acknowledgement
 Thanks to the inspirations and codes from the following excellent open-source projects:
-[RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [TEED](https://github.com/xavysp/TEED), [EFNet](https://github.com/AHupuJR/EFNet),[SCSNet](https://github.com/Chohoonhee/SCSNet)
+[RAFT-Stereo](https://github.com/princeton-vl/RAFT-Stereo), [TEED](https://github.com/xavysp/TEED), [EFNet](https://github.com/AHupuJR/EFNet), [SCSNet](https://github.com/Chohoonhee/SCSNet)
