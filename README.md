@@ -1,20 +1,20 @@
 <!--
  * @Author: zhaofengan
  * @Date: 2024-03-03 21:53:03
- * @LastEditTime: 2024-07-26 23:08:36
+ * @LastEditTime: 2024-07-27 10:13:31
  * @FilePath: \EGEI-Stereo\README.md
  * @Description: 
  * 
 -->
-<h1>Edge-Guided Fusion and Motion Augmentation for Event-Image Stereo</h1>
-
+<div align=center>
+    <h1>Edge-Guided Fusion and Motion Augmentation for Event-Image Stereo</h1>
+</div>
 This repository contains the source code for our ECCV 2024 paper:
 
 **Edge-Guided Fusion and Motion Augmentation for Event-Image Stereo**
-
-
+<div align=center>
 <img src="EGEIStereo.png" width="80%" height="80%">
-
+</div>
 
 ## 🔧 Requirements
 The code has been tested with PyTorch 1.11 and Cuda 11.3
